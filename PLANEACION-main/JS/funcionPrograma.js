@@ -120,6 +120,7 @@ function previewImage(){
   }
 }
 
+
 // ========== INICIALIZACIÓN ==========
 // Se ejecuta al cargar la página
 window.onload=()=>{
