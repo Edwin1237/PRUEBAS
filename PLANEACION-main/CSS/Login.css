@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    background-image: url("https://img.freepik.com/foto-gratis/abstracto-borroso-centro-comercial_1203-8771.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contenedor {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Formulario {
+    width: 350px;
+    max-width: 90%;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.Formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.Formulario input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.Formulario button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(90deg, #f79da9, #f79da9);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Formulario button:hover {
+    transform: scale(1.05);
+}
+
