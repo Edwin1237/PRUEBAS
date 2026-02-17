@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-image: url("https://img.freepik.com/foto-gratis/abstracto-borroso-centro-comercial_1203-8771.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(247, 218, 139);
+}
+
+
+.carrito{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.producto{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.producto:hover{
+    transform: scale(1.03);
+}
+
+.producto img{
+    width: 100%;
+    max-width: 250px;   
+    height: 250px;      
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;    
+}
+
+
+.detalle-producto{
+    padding: 10px;
+}
+
+button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.eliminar{
+    background: rgb(233, 141, 160);
+    color: white;
+}
+
+.finalizar-compra{
+    background: green;
+    color: white;
+    margin-top: 10px;
+}
